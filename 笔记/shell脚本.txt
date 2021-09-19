@@ -1,0 +1,4 @@
+1.sort -k2 -n 的对表中的某列数字进行排序
+2.find / -name *.sh -exec cp {}   /var  \； 将.sh后缀名的文件拷贝到/var文件中，以\结尾
+3.awk -F ':'  'NR==2{print $2}' /etc/passwd
+4.sed 更换字段， sed -i '/mysql/s/xx/yy/g' /etc/passwd  其中/表示分隔符，将xx替换成yy，s和g表示所有的字符串都替换  ，该命令是匹配有mysql的行并将其中的xx替换成yy。
